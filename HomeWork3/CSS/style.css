@@ -1,12 +1,17 @@
 .content{
+<<<<<<< HEAD
     /* position: relative; */
     margin: auto;
+=======
+    position: relative;
+>>>>>>> 145c31509c55dbe9983b5f3902ae12111f223174
     width: 1400px;
     height: 1021px;
     background: #FFFFFF;
 }
 
 .header{
+<<<<<<< HEAD
     position: relative;
     width: 1400px;
     height: 250px;
@@ -15,6 +20,20 @@
 
 h2{ 
     position: relative;
+=======
+    position: absolute;
+    width: 1400px;
+    height: 250px;
+    left: 0px;
+    top: 0px;
+}
+
+h2{
+    position: absolute;
+    width: 409px;
+    height: 38px;
+    left: 496px;
+>>>>>>> 145c31509c55dbe9983b5f3902ae12111f223174
     top: 100px;
     font-family: Raleway;
     font-style: normal;
@@ -22,6 +41,7 @@ h2{
     font-size: 36px;
     line-height: 42px;
     color: #212121;
+<<<<<<< HEAD
     text-align: center;
 }
 
@@ -31,10 +51,21 @@ h2{
     height: 1px;
     left: 668px;
     top: 143px;
+=======
+}
+
+p{
+    position: absolute;
+    width: 64px;
+    height: 2px;
+    left: 668px;
+    top: 163px;
+>>>>>>> 145c31509c55dbe9983b5f3902ae12111f223174
     border: 1px solid #E72424;
 }
 
 .level-1{
+<<<<<<< HEAD
     position: relative;
     top: 180px;
     font-family: Open Sans;
@@ -47,21 +78,57 @@ h2{
 .main{
     width: 1400px;
     height: 670px;
+=======
+    position: absolute;
+    width: 363px;
+    height: 19px;
+    left: 519px;
+    top: 195px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
+
+.main{
+    position: absolute;
+    width: 1400px;
+    height: 670px;
+    left: 0px;
+    top: 250px;
+>>>>>>> 145c31509c55dbe9983b5f3902ae12111f223174
 }
 
 .first{
     width: 1400px;
     height: 345px;
     left: 0px;
+<<<<<<< HEAD
 }
 
 .block-1{
+=======
+    top: 595px;
+}
+.second{
+    width: 1400px;
+    height: 325px;
+    left: 0px;
+    top: 595px;
+}
+
+.block-1{
+    position: absolute;
+>>>>>>> 145c31509c55dbe9983b5f3902ae12111f223174
     width: 350px;
     height: 225px;
     left: 143px;
     top: 31px;
 }
 
+<<<<<<< HEAD
 .second{
     /* display: block; */
     width: 1400px;
@@ -90,6 +157,10 @@ h2{
 }
 
 .footer{
+=======
+.footer{
+    position: absolute;
+>>>>>>> 145c31509c55dbe9983b5f3902ae12111f223174
     width: 1400px;
     height: 101px;
     left: 0px;
@@ -98,12 +169,17 @@ h2{
 }
 
 .network{
+<<<<<<< HEAD
     position: relative;
+=======
+    position: absolute;
+>>>>>>> 145c31509c55dbe9983b5f3902ae12111f223174
     width: 317px;
     height: 23px;
     left: 541px;
     top: 30px;
 }
+<<<<<<< HEAD
 
 .chip{
     margin: 45px auto 0px;
@@ -111,6 +187,17 @@ h2{
     height: 15px;
     top: 45px;
     font-family: Open Sans;
+=======
+.chip{
+    position: absolute;
+    width: 130px;
+    height: 15px;
+    left: 635px;
+    top: 71px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+>>>>>>> 145c31509c55dbe9983b5f3902ae12111f223174
     font-size: 12px;
     line-height: 16px;
     text-align: center;
