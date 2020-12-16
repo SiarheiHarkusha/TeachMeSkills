@@ -1,5 +1,5 @@
 .content{
-    position: relative;
+    /* position: relative; */
     margin: auto;
     width: 1400px;
     height: 1021px;
@@ -7,16 +7,14 @@
 }
 
 .header{
+    position: relative;
     width: 1400px;
     height: 250px;
-    top: 100px;
+    top: 0px;
 }
 
 h2{ 
     position: relative;
-    width: 409px;
-    height: 38px;
-    left: 496px;
     top: 100px;
     font-family: Raleway;
     font-style: normal;
@@ -24,29 +22,26 @@ h2{
     font-size: 36px;
     line-height: 42px;
     color: #212121;
+    text-align: center;
 }
 
-p{
+.line{
     position: relative;
     width: 64px;
     height: 1px;
     left: 668px;
-    top: 163px;
+    top: 143px;
     border: 1px solid #E72424;
 }
 
 .level-1{
     position: relative;
-    width: 363px;
-    height: 19px;
-    left: 519px;
-    top: 190px;
+    top: 180px;
     font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 19px;
     color: #86878B;
+    text-align: center;
 }
 
 .main{
@@ -60,22 +55,38 @@ p{
     left: 0px;
 }
 
-.second{
-    position: relative;
-    width: 1400px;
-    height: 325px;
-    left: 0px;
-}
-
-.backgroun{
-    position: relative;
-    background:rgba(0, 0, 0, 0.65)
-}
 .block-1{
     width: 350px;
     height: 225px;
     left: 143px;
     top: 31px;
+}
+
+.second{
+    /* display: block; */
+    width: 1400px;
+    height: 325px;
+    background-image: url(../IMG/Background.png);
+}
+
+.axure{
+    position: relative;
+    top: 75px;
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.line-2{
+
+}
+
+.backgroun{
+    background:rgba(0, 0, 0, 0.65);
+    height: 326px; 
+    width: 1400px;  
 }
 
 .footer{
@@ -93,15 +104,13 @@ p{
     left: 541px;
     top: 30px;
 }
+
 .chip{
-    position: relative;
+    margin: 45px auto 0px;
     width: 130px;
     height: 15px;
-    left: 635px;
-    top: 71px;
+    top: 45px;
     font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 16px;
     text-align: center;
