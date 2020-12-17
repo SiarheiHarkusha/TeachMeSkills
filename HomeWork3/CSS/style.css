@@ -1,39 +1,18 @@
 .content{
-<<<<<<< HEAD
     /* position: relative; */
     margin: auto;
-=======
-    position: relative;
->>>>>>> 145c31509c55dbe9983b5f3902ae12111f223174
     width: 1400px;
     height: 1021px;
-    background: #FFFFFF;
+    background: #FFF;
 }
-
 .header{
-<<<<<<< HEAD
     position: relative;
     width: 1400px;
     height: 250px;
     top: 0px;
 }
-
 h2{ 
     position: relative;
-=======
-    position: absolute;
-    width: 1400px;
-    height: 250px;
-    left: 0px;
-    top: 0px;
-}
-
-h2{
-    position: absolute;
-    width: 409px;
-    height: 38px;
-    left: 496px;
->>>>>>> 145c31509c55dbe9983b5f3902ae12111f223174
     top: 100px;
     font-family: Raleway;
     font-style: normal;
@@ -41,31 +20,16 @@ h2{
     font-size: 36px;
     line-height: 42px;
     color: #212121;
-<<<<<<< HEAD
     text-align: center;
 }
-
 .line{
     position: relative;
     width: 64px;
-    height: 1px;
     left: 668px;
     top: 143px;
-=======
+    border: .5px solid #E72424;
 }
-
-p{
-    position: absolute;
-    width: 64px;
-    height: 2px;
-    left: 668px;
-    top: 163px;
->>>>>>> 145c31509c55dbe9983b5f3902ae12111f223174
-    border: 1px solid #E72424;
-}
-
 .level-1{
-<<<<<<< HEAD
     position: relative;
     top: 180px;
     font-family: Open Sans;
@@ -74,68 +38,61 @@ p{
     color: #86878B;
     text-align: center;
 }
-
 .main{
     width: 1400px;
     height: 670px;
-=======
-    position: absolute;
-    width: 363px;
-    height: 19px;
-    left: 519px;
-    top: 195px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    color: #86878B;
 }
-
-.main{
-    position: absolute;
-    width: 1400px;
-    height: 670px;
-    left: 0px;
-    top: 250px;
->>>>>>> 145c31509c55dbe9983b5f3902ae12111f223174
-}
-
 .first{
+    display: flex;
     width: 1400px;
     height: 345px;
     left: 0px;
-<<<<<<< HEAD
+    justify-content: center;
 }
-
 .block-1{
-=======
-    top: 595px;
-}
-.second{
-    width: 1400px;
-    height: 325px;
-    left: 0px;
-    top: 595px;
-}
-
-.block-1{
-    position: absolute;
->>>>>>> 145c31509c55dbe9983b5f3902ae12111f223174
     width: 350px;
     height: 225px;
-    left: 143px;
-    top: 31px;
+    margin: 31px 32px 88px 143px;
 }
-
-<<<<<<< HEAD
+.lamp{
+    position: relative;
+    background-image: url(../IMG/img1.png);
+    width: 23px;
+    height: 30px;
+    margin: 0 auto;
+    /* left: 164px; */
+    top: 20px;
+    border: 1px solid #e72424;
+}
+.block-2{
+    width: 350px;
+    height: 225px;
+    margin: 31px 32px 88px;
+}
+.keyboard{
+    position: relative;
+    background-image: url(../IMG/img2.png);
+    width: 37px;
+    height: 26px;
+    margin: 0 auto;
+}
+.block-3{
+    width: 350px;
+    height: 225px;
+    margin: 31px 143px 88px 32px;
+}
+.lighthing{
+    position: relative;
+    background-image: url(../IMG/img3.png);
+    width: 21px;
+    height: 33px;
+}
 .second{
     /* display: block; */
     width: 1400px;
     height: 325px;
     background-image: url(../IMG/Background.png);
 }
-
 .axure{
     position: relative;
     top: 75px;
@@ -143,61 +100,48 @@ p{
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    color: #FFFFFF;
+    color: #FFF;
 }
-
 .line-2{
-
+    position: relative;
+    width: 64px;
+    left: 668px;
+    top: 110px;
+    border: .5px solid #FFF;
 }
-
+.gorgeous{
+    position: relative;
+    top: 152px;
+    font-family: Raleway;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
 .backgroun{
     background:rgba(0, 0, 0, 0.65);
-    height: 326px; 
+    height: 325px; 
     width: 1400px;  
 }
-
 .footer{
-=======
-.footer{
-    position: absolute;
->>>>>>> 145c31509c55dbe9983b5f3902ae12111f223174
     width: 1400px;
     height: 101px;
     left: 0px;
     top: 920px;
     background: #000000;
 }
-
 .network{
-<<<<<<< HEAD
     position: relative;
-=======
-    position: absolute;
->>>>>>> 145c31509c55dbe9983b5f3902ae12111f223174
     width: 317px;
     height: 23px;
     left: 541px;
     top: 30px;
+    /* bottom: 15px; */
 }
-<<<<<<< HEAD
-
 .chip{
     margin: 45px auto 0px;
     width: 130px;
     height: 15px;
     top: 45px;
     font-family: Open Sans;
-=======
-.chip{
-    position: absolute;
-    width: 130px;
-    height: 15px;
-    left: 635px;
-    top: 71px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
->>>>>>> 145c31509c55dbe9983b5f3902ae12111f223174
     font-size: 12px;
     line-height: 16px;
     text-align: center;
