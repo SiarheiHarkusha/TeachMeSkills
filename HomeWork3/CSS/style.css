@@ -1,5 +1,4 @@
 .content{
-    /* position: relative; */
     margin: auto;
     width: 1400px;
     height: 1021px;
@@ -25,8 +24,8 @@ h2{
 .line{
     position: relative;
     width: 64px;
-    left: 668px;
     top: 143px;
+    margin: 0 auto;
     border: .5px solid #E72424;
 }
 .level-1{
@@ -54,15 +53,42 @@ h2{
     height: 225px;
     margin: 31px 32px 88px 143px;
 }
+.circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid #e72424;
+    margin: 0 auto;
+}
 .lamp{
     position: relative;
     background-image: url(../IMG/img1.png);
+    position: relative;
     width: 23px;
     height: 30px;
     margin: 0 auto;
-    /* left: 164px; */
     top: 20px;
-    border: 1px solid #e72424;
+}
+.Thoughtful{
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+.Lorem{
+    width: 350px;
+    height: 60px;
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    position: relative;
+    top: 95px;
+    bottom: 109px;
 }
 .block-2{
     width: 350px;
@@ -75,6 +101,7 @@ h2{
     width: 37px;
     height: 26px;
     margin: 0 auto;
+    top: 22px;
 }
 .block-3{
     width: 350px;
@@ -86,9 +113,10 @@ h2{
     background-image: url(../IMG/img3.png);
     width: 21px;
     height: 33px;
+    margin: 0 auto;
+    top: 19px;
 }
 .second{
-    /* display: block; */
     width: 1400px;
     height: 325px;
     background-image: url(../IMG/Background.png);
@@ -105,7 +133,7 @@ h2{
 .line-2{
     position: relative;
     width: 64px;
-    left: 668px;
+    margin: 0 auto;
     top: 110px;
     border: .5px solid #FFF;
 }
@@ -121,6 +149,14 @@ h2{
     height: 325px; 
     width: 1400px;  
 }
+.batton{
+    border: 1px solid #FFFFFF;
+    position: relative;
+    width: 135px;
+    height: 42px;
+    margin: 0 auto;
+    top: 245px;
+}
 .footer{
     width: 1400px;
     height: 101px;
@@ -134,7 +170,6 @@ h2{
     height: 23px;
     left: 541px;
     top: 30px;
-    /* bottom: 15px; */
 }
 .chip{
     margin: 45px auto 0px;
