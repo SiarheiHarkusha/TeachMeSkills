@@ -1,0 +1,127 @@
+.content{
+    margin: auto;
+    width: 1400px;
+    height: 4505px;
+    background: #FFF;
+}
+.navigation{
+    height: 70px;
+    background: #000;
+    display: flex;
+    align-items: center;
+}
+.part-1,.part-2{
+    width: 50%;
+}
+.logo{
+    margin-left: 110px;
+}
+.list-navigation{
+    display: flex;
+    flex-direction: row;
+}
+li, a{
+    text-decoration: none;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 24px;
+}
+.header{
+    width: 1400px;
+    height: 600px;
+    background-image: url(../IMG/background-1.png);
+}
+.header-background{
+    background:rgba(0, 0, 0, 0.25);
+    height: 600px; 
+    width: 1400px;
+    display: flex;
+}
+.block-1{
+    width: 50%;
+    margin-left: 110px;
+}
+.AXIT{
+    position: relative;
+    width: 125px;
+    height: 45px;
+    top: 120px;
+}
+.modern{
+    position: relative;
+    width: 544px;
+    height: 99px;
+    top: 165px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.line-1{
+    position: relative;
+    width: 64px;
+    top: 195px;
+    border: .5px solid #FFF;
+}
+
+.lorem-1{
+    position: relative;
+    width: 282px;
+    height: 38px;
+    top: 235px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.batton{
+    border: 1px solid #FFF;
+    position: relative;
+    width: 135px;
+    height: 42px;
+    top: 270px;
+}
+.download{
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 11px;
+}
+.block-2{
+    width: 50%;
+}
+.rectangle{
+    position: relative;
+    width: 370px;
+    height: 370px;
+    margin-top: 111px;
+    left: 160px;
+    background: #FFF;
+    border-radius: 8px;
+}
+.free{
+    position: relative;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    justify-content: center;
+    color: #333333;
+}
+.red-color{
+    color: #EC7979;
+}
