@@ -42,16 +42,18 @@ h2{
     height: 670px;
 }
 .first{
-    display: flex;
+    /* display: flex; */
+    /* display: inline-block; */
     width: 1400px;
-    height: 345px;
-    left: 0px;
-    justify-content: center;
+    height: 344px;
+    /* left: 0px; */
+    /* justify-content: center; */
 }
 .block-1{
+    display: inline-block;
     width: 350px;
     height: 225px;
-    margin: 31px 32px 88px 143px;
+    margin: 31px 31px 88px 143px;
 }
 .circle{
     width: 70px;
@@ -61,7 +63,6 @@ h2{
     margin: 0 auto;
 }
 .lamp{
-    position: relative;
     background-image: url(../IMG/img1.png);
     position: relative;
     width: 23px;
@@ -76,7 +77,7 @@ h2{
     color: #333333;
     text-align: center;
     position: relative;
-    top: 50px;
+    top: 30px;
 }
 .Lorem{
     width: 350px;
@@ -87,13 +88,13 @@ h2{
     text-align: center;
     color: #000000;
     position: relative;
-    top: 95px;
-    bottom: 109px;
+    top: 75px;
 }
 .block-2{
+    display: inline-block;
     width: 350px;
     height: 225px;
-    margin: 31px 32px 88px;
+    margin: 31px auto 88px;
 }
 .keyboard{
     position: relative;
@@ -104,9 +105,10 @@ h2{
     top: 22px;
 }
 .block-3{
+    display: inline-block;
     width: 350px;
     height: 225px;
-    margin: 31px 143px 88px 32px;
+    margin: 31px 137px 88px 31px;
 }
 .lighthing{
     position: relative;
@@ -147,15 +149,25 @@ h2{
 .backgroun{
     background:rgba(0, 0, 0, 0.65);
     height: 325px; 
-    width: 1400px;  
+    width: 1400px;
 }
 .batton{
-    border: 1px solid #FFFFFF;
+    border: 1px solid #FFF;
     position: relative;
     width: 135px;
     height: 42px;
     margin: 0 auto;
-    top: 245px;
+    top: 190px;
+    
+}
+.download{
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 11px;
 }
 .footer{
     width: 1400px;
@@ -179,6 +191,5 @@ h2{
     font-family: Open Sans;
     font-size: 12px;
     line-height: 16px;
-    text-align: center;
     color: rgba(255, 255, 255, 0.5);
 }
