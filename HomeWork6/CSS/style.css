@@ -1,0 +1,243 @@
+body{
+    background: yellowgreen;
+}
+.container{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+/* !!!! не забыть убрать высоту!!! */
+
+
+.main-background{
+    background-image: url(../IMG/background/Union.svg);
+    background-size: cover;
+    background-position: center;
+    height: 1200px;
+    border: 1px solid #a34a0f;
+    background-color: #FDFDFF;
+    
+}
+
+.dashboard{
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: 8% 92%;
+    margin: 160px auto;
+    border: 1px solid #EBEBEB;
+    border-radius: 14px;
+    background-color: #EFF3F9;
+}
+.sidebar{
+    background-color:  #FDFDFF;
+    display: flex;
+    flex-direction: column;
+    max-width: 102px;
+    border-radius: 14px 0px 0px 14px;
+}
+
+.logo-vk{
+    margin: 46px auto;
+}
+.vk{
+    max-width: 51px;
+    max-height: 35px;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 63px auto 0px;
+}
+.nav-2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px auto ;
+}
+.sidebar-a{
+    width: 25px;
+    height: 25px;
+}
+.sidebar_icon{
+    color: #DFE6F1;
+    max-width: 25px;
+    max-height: 25px;
+    margin-top: 40px;
+    text-align: center
+}
+.sidebar_icon-b{
+    color: #DFE6F1;
+    max-width: 25px;
+    max-height: 25px;
+    text-align: center
+}
+.sidebar_icon-c{
+    color: #DFE6F1;
+    max-width: 25px;
+    max-height: 25px;
+    text-align: center
+    
+}
+.sidebar_img-1{
+    max-width: 25px;
+    max-height: 25px;
+}
+.sidebar_img-2{
+    max-width: 25px;
+    max-height: 23px;
+}
+.sidebar_img-3{
+    max-width: 25px;
+    max-height: 23px;
+}
+.sidebar_img-4{
+    max-width: 25px;
+    max-height: 17px;
+}
+.sidebar_img-5{
+    max-width: 25px;
+    max-height: 25px;
+}
+.sidebar_img-6{
+    max-width: 25px;
+    max-height: 25px;
+}
+.rectangle{
+    max-width: 98px;
+    height: 25px;
+    margin: 40px auto;
+    display: flex;
+}
+.line{
+    position: relative;
+    width: 4px;
+    height: 50px;
+    left: -37px;
+    top: -12px;
+    background: #7F7FD5;
+}
+.tumbler{
+    max-width: 60px;
+    max-height: 30px;
+    margin: 142px auto 48px;
+}
+
+
+
+
+.statistics{
+    display: grid;
+    grid-template-columns: 3.5fr 3.5fr 6.4fr 0.6fr 0.6fr 6.4fr;  
+    grid-template-rows: 1fr 1.5fr 2.2fr 2.2fr; 
+    grid-template-areas: "header header header header header header" "friends friends visitors visitors followers followers" "audience audience audience audience audience device" "gender gender gender geo geo geo";
+    gap:31px;
+    padding:0 45px 45px 45px;
+    border-radius:0 14px 14px 0;
+}
+.header{
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+}
+.friends{
+    grid-area: friends;
+    background-color:#FDFDFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 13px;
+}
+.visitors{
+    grid-area: visitors;
+    background-color:#FDFDFF;
+    border: 1px solid #EBEBEB;border-radius: 13px;
+}
+.followers{
+    grid-area: followers;
+    background-color:#FDFDFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 13px;
+}
+.audience{
+    grid-area: audience;
+    background-color:#FDFDFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 13px;
+}
+.device{
+    grid-area: device;
+    background-color:#FDFDFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 13px;
+}
+.gender{
+    grid-area: gender;
+    background-color:#FDFDFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 13px;
+}
+.geo{
+    grid-area: geo;
+    background-color:#FDFDFF;
+    border-bottom-right-radius: 14px;
+    border: 1px solid #EBEBEB;
+    border-radius: 13px;
+}
+
+
+
+.found{
+    display: flex;
+    align-items: center;
+    
+}
+.stac{
+    font-family: gilroy;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 30px;
+    color: #4F4F4F;
+}
+.search{
+    width: 153px;
+    height: 32px;
+    border: 1px solid #EBEBEB;
+    border-radius: 8px;
+    background: #FDFDFF;
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 12px;
+    color: #979797;
+    text-align: center;
+    outline: none;
+}
+.lupe{
+    color:#979797;
+    position: relative;
+    left: 25px;
+}
+.kolokol{
+    margin-left: 24px;
+}
+   
+.anya{
+    display: flex;
+}
+.name{
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 20px;
+    color: #4F4F4F;
+    text-transform: capitalize;
+    display: flex;
+    align-items:center;
+
+}
+.photo{
+    width: 50px;
+height: 50px;
+margin-left: 11px;
+
+}
